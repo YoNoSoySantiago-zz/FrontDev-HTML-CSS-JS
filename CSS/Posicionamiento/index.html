@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posicionamiento en CSS</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+</head>
+<body>
+    <h1>
+        Centrar Div en CSS
+    </h1>
+    <!-- Posicion Static: Valor de default, No se muevo sin importar los valores de top,bottom..etc-->
+    <div style="position: static;">
+        Elemento tipo Div Static
+    </div>
+    <!-- Posicion Relative:  Se mueve de manera relativa a la posicion inicial, pero el espacio reservado mantiene en el inicial-->
+    <div style="position: relative;">
+        Elemento tipo Div Relative
+    </div>
+    <p>
+        parrafo1
+    </p>
+    <p>
+        parrafo2
+    </p>
+    <!-- Fixed: Se ajusta teniendo en cuenta el viwport osea la pantalla, ignorando los demas elementos, se mueve con el scroll -->
+    <div style="position: fixed;">
+        Elemento tipo Div Fixed
+    </div>
+    <!-- Absolute: Se ajusta al padre que lo contiene (excepto si el padre es static), y se mantiene fijo -->
+    <!--
+    <div style="position: absolute;">
+        Elemento tipo Div Absolute
+    </div>-->
+    <div style="position: relative;" class="padre">
+        Elemento tipo Div Relative padre
+        <div style="position: absolute;" class="hijo">
+            Elemento tipo Div Absolute Hijo
+        </div>
+    </div>
+
+    <!-- Sticky: Se queda pegado, en la posicion en la que se le indica cuando se mueve el scroll-->
+    <div style="position: sticky;" class="stick">
+        Elemento tipo Div Sticky
+    </div>
+    <p style="padding: 1000px;">
+        parrafo3
+    </p>
+</body>
+</html>

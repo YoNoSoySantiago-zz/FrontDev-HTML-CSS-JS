@@ -1,0 +1,29 @@
+h1 {
+    text-align: center;
+    color: crimson;
+}
+div.container{
+   
+    width: 30%;
+    height: 100px;
+    /*overflow: visible Default*/
+    /*overflow: hidden; Oculta el contenido del div*/
+    /*overflow: scroll; Aniade las barras de scroll;*/
+    overflow: auto; /*Aniade barras de scroll solo si es necesario ;*/
+    
+}
+div.container.floated{
+    float: left;
+}
+div.container.floated.container1{
+    border: 3px dashed greenyellow;
+}
+div.container.floated.container2{
+    border: 3px dashed cornflowerblue;
+    float: right;
+}
+div.container.container3{
+    clear: both;
+    border: 3px dashed darkorange;
+    margin: auto;
+}

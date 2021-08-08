@@ -1,0 +1,24 @@
+h1{
+    text-align: center;
+    color:#e63946;
+}
+div.container{
+    width: 80%;
+    height: 20%;
+    margin: auto;
+    border: 3px solid #a8dadc;
+    padding: 15px;
+    color: #457b9d;
+}
+div.container.descendiente p{
+    background-color: #fdffb6;
+}
+div.container.hijo > p{
+    background-color: #ffc6ff;
+}
+div.container.adyacente + p{
+    background-color: #caffca;
+}
+div.container.hermano ~ p{
+    background-color: #9bf6ff;
+}

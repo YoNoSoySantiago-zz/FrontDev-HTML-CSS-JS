@@ -1,0 +1,36 @@
+
+h1{
+    text-align: center;
+    color: crimson;
+}
+div{
+    width: 50%;
+    top: 100px;
+    left: 50px;
+    border: 3px solid firebrick;
+    margin: auto;
+}
+
+div.padre{
+    width: 500px;
+    height: 400px;
+    top: 100px;
+    left: 200px;
+    border: 3px solid blueviolet;
+    margin: auto;
+}
+div.hijo{
+    width: 50%;
+    bottom: 0px;
+    left: 0;
+    border: 3px solid blue;
+    margin: auto;
+}
+
+div.stick{
+    width: 100%;
+    left: 0;
+    margin: default;
+    top :0;
+    border: 3px solid firebrick;
+}

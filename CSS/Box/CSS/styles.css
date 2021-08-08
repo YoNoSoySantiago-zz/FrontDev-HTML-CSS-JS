@@ -1,0 +1,32 @@
+h1{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Open Sans';
+    color: #e63946;
+    margin-top: 0px;
+}
+.caja1{
+    padding: 10px;
+    border: 1px solid #457b9d;
+    margin: 20px auto;
+    background-color: #f1faee;
+    max-width: 300px; /* el ancho maximo que puede tener el contendio */
+    /*outline: 10px solid #a8dadc; No suma espacio al tamaño del contenido*/
+    /* outline-offset: 10px;Separacion del borde con el outline (solo permite un valor)*/
+    box-sizing: border-box; /*Hace el tamaño del contenido igual al del borde*/
+}
+.caja2{
+    padding: 10px;
+    border: 1px solid #457b9d;
+    margin: 30px auto;
+    background-color: #f1faee;
+    max-width: 300px; /* el ancho maximo que puede tener el contendio */
+    /*outline: 10px solid #a8dadc; No suma espacio al tamaño del contenido*/
+    /* outline-offset: 10px;Separacion del borde con el outline (solo permite un valor)*/
+    box-sizing: border-box; /*Hace el tamaño del contenido igual al del borde*/
+}
+/*
+p.interno{
+   margin-left: inherit;
+}
+*/

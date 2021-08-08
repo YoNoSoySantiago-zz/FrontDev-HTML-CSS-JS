@@ -1,0 +1,26 @@
+h1{
+    text-align: center;
+    text-shadow:  2px 2px 2px #a8dadc;
+    color: #a63046;
+}
+div.container{
+    display: flex;
+    background-color: #560bad;
+    /* flex-direction: column; Muestra en columna de arriba a abajo (se puede hacer reverse)*/
+    /* flex-direction: row-reverse;Muestra en columna de izq a der (se puede hacer reverse) */
+    /* flex-direction: row; */
+    /* flex-wrap: wrap; Agrega todos  */
+    flex-flow: row wrap;
+    justify-content:  center;
+    height: 300px;
+    align-items: center;
+}
+
+div.container > p{
+
+    background-color: #4895ef;
+    color: #f1faee;
+    margin: 20px;
+    padding: 15px;
+    font-size: 1.5em;
+}

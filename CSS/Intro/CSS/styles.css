@@ -1,0 +1,15 @@
+#titulo{
+    text-align: center;
+    font-size: 100px;
+    color: crimson;
+}
+.centrar{
+    text-align: center;
+}
+.texto_grande{
+    font-size: 50px;
+}
+*{
+    background-color: gold;
+    color: blue;
+}

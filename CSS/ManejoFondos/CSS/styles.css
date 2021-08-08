@@ -1,0 +1,17 @@
+body{
+    color: cornsilk;
+    /*
+    background-color: dodgerblue;
+    
+    background-image: url("/CSS/ManejoFondos/img/fondo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;*/
+
+    /* se puede hacer todo en un sola linea: */
+    background: dodgerblue url("/CSS/ManejoFondos/img/fondo.png") no-repeat center fixed;
+}
+h1{
+    text-align: center;
+    height: 1000px;
+}
